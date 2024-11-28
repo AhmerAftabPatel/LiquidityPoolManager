@@ -1,0 +1,49 @@
+{
+  "name": "trader-joe-liquidity-manager",
+  "version": "1.0.0",
+  "description": "Automated liquidity position management for Trader Joe on Avalanche",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node src/utils/getTestTokens.js"
+  },
+  "keywords": [
+    "defi",
+    "avalanche",
+    "trader-joe",
+    "liquidity",
+    "cryptocurrency"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@traderjoe-xyz/sdk": "^5.0.2",
+    "@traderjoe-xyz/sdk-core": "^2.0.2",
+    "@traderjoe-xyz/sdk-v2": "^3.0.14",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.2",
+    "node-fetch": "^3.3.0",
+    "viem": "^2.21.51"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.20.2"
+  },
+  "engines": {
+    "node": "v22.3.0"
+  },
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ]
+    ]
+  }
+}

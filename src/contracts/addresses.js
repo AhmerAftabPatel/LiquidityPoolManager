@@ -1,0 +1,21 @@
+/**
+ * Smart contract addresses for Avalanche mainnet
+ */
+export const ADDRESSES = {
+    TRADER_JOE: {
+        ROUTER: '0xb4315e873dBcf96Ffd0acd8EA43f689D8c20fB30',
+        JOE_TOKEN: '0xab231a5744c8e6c45481754928ccffffd4aa0732', //USDT
+        JOE_AVAX_PAIR: '0x2fda424810824063ec6b1d059f4998a6ca4fe3b2',  // AVAX-USDT LBPair
+
+        // ROUTER: '0x18556DA13313f3532c54711497A8FedAC273220E',
+        // JOE_TOKEN: '0xb6076c93701d6a07266c31066b298aec6dd65c2d',
+        // JOE_AVAX_PAIR: '0x0b16fd47cbf5350ebde20aa813db8e58846cd5d2', 
+    },
+    TOKENS: {
+        WAVAX: '0xd00ae08403B9bbb9124bB305C09058E32C39A48c',
+        USDC: '0x5425890298aed601595a70AB815c96711a31Bc65'
+    },
+    CHAINLINK: {
+        AVAX_USD_FEED: '0x5498BB86BC934c8D34FDA08E81D444153d0D06aD'
+    }
+};
